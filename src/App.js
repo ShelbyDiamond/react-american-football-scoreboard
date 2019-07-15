@@ -3,6 +3,16 @@ import React, { useState } from "react";
 import "./App.css";
 import BottomRow from "./BottomRow";
 
+const name1 = style.h2`
+  width: 58%;
+  margin: 10rem auto;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 10rem;
+  padding: 5rem;
+  border: 4px solid #aaaaaa;
+`;
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
   const [homeScore, setHomeScore] = useState(0);
