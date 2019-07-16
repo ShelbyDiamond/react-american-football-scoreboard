@@ -1,3 +1,8 @@
+.body {
+  background-image: url("https://tenor.com/view/icecream-crazy-babycrazy-beibi-beibicreisi-gif-5221931");
+  background-repeat: repeat;
+}
+
 :root {
   --black: #0d0d0d;
   --red: #ff2d2b;
@@ -6,7 +11,7 @@
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background-color: green;
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
